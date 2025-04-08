@@ -12,7 +12,20 @@ body {
     margin: auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* jarak antar logo */
+    margin-bottom: 20px;
+  }
   
+  .logo {
+    height: 60px; /* ubah sesuai ukuran logo kamu */
+    object-fit: contain;
+  }
+
   h2 {
     text-align: center;
     color: #333;
